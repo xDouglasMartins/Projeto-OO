@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+        <nav id="menuCad">
+            <ul class="menu">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="CadastroUsuario.html"> Cadastro</a></li>
+                <li><a href="CadastroLixo.html"> Calcule seu lixo anual</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <script src="Valida.js"></script>
+            <form action="usuario.php" method="POST" name="formUsuario">
+                <fieldset><legend>Cadastro de Usuário</legend>
+                    <div id="formulario">
+                        <label for="nome">Nome:</label>
+                        <input type="text" placeholder="Insira Seu Nome..." name="nomeUser" id="nomeUser" />
+                        <br>
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" placeholder="Sobrenome..." name="sobrenome" id="sobrenome" />
+                        <br>
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" placeholder="( )______-____" name="telefone" id="telefone" />
+                        <br>
+                        <label for="email">E-mail:</label>
+                        <input type="text" placeholder="abc@aaaa.com" name="email" id="email" />
+                        <br>
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" placeholder="cidade" name="cidade" id="cidade" />
+                        <br>
+                        <label for="estado">Estado:</label>
+                        <input type="text" placeholder="Estado" name="estado" id="estado" />
+                    </div>
+                    <div >
+                        <input id="botaoEnviar" type="button" value="Enviar" onclick="validaCampos()">
+                    </div>
+                </fieldset>
+            </form>
+    </section>
+</body>
+</html>

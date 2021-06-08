@@ -1,0 +1,177 @@
+body{
+	background-color: #d3d3d3;
+}
+
+header{
+	background-color: #3CB371;
+	color: white;
+	height: 100px;
+	text-align: center;
+}
+
+aside{
+	background-color: #3CB371;
+	height: 600px;
+	width: 15%;
+	float: left;
+}
+
+.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu a{
+	text-decoration: mome;
+	color: white;
+	padding: 16px 8px;
+	display: block;
+}
+.menu a:hover{
+	background-color: #006400;
+}
+
+section{
+	height: 600px;
+	width: 85%;
+}
+
+div{
+	text-align: center;
+	margin-top: 100px;
+	
+}
+
+section p{
+	margin-top: 25px;
+	text-align: left;
+	font-size: 20px;
+}
+
+footer{
+	background-color: #3CB371;
+	height: 100px;
+	clear: both;
+}
+
+
+#menuCad{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #3CB371;
+	float: left;
+	width: 100%;
+}
+
+#menuCad a{
+	text-decoration: none;
+	padding: 16px;
+	color: white;
+	display: block;
+}
+
+#menuCad li{
+	float: left;
+}
+
+#menuCad a:hover{
+	background-color: #006400;
+}
+
+
+form{
+	position:relative;
+	left:37%;
+	top:15%;
+	width:320px;
+	height:270px;
+}
+
+label{
+	position:absolute;
+	left:100px;
+	margin-top:5%;
+}
+
+
+input{ 
+	left:230px;
+	top:100px;
+	width:225px;
+	margin:6px;
+}
+
+
+
+fieldset{
+	float: center;
+	margin-left: 20%;
+	width:450px;
+	height:480px;
+}
+
+
+legend{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#botaoEnviar{
+	width: 100px;
+	background-color:#3CB371;
+}
+
+
+#menuCadLixo{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #3CB371;
+	float: left;
+	width: 100%;
+}
+
+#menuCadLixo a{
+	text-decoration: none;
+	padding: 16px;
+	color: white;
+	display: block;
+}
+
+#menuCadLixo li{
+	float: left;
+}
+
+#menuCadLixo a:hover{
+	background-color: #006400;
+}
+
+#formCalc input{
+	left:230px;
+	top:100px;
+	width:225px;
+	margin:15px;
+	margin-left: 150px;
+}
+
+#formCalc label{
+	position:absolute;
+	left: :150px;
+	margin-top:5%;
+}
+
+.Calc {
+	margin-top: 0px;
+	float: center;
+	margin-left: 20%;
+	width:550px;
+	height:450px;
+}
+
+#enviarCalc{
+	width: 100px;
+	background-color:#3CB371;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calcule seu Lixo</h1>
+        <nav id="menuCadLixo">
+            <ul class="menu">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="CadastroUsuario.html"> Cadastro</a></li>
+                <li><a href="CadastroLixo.html"> Calcule seu lixo anual</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <script src="Valida.js"></script>
+        <form action="lixo.php" method="POST" name="formLixo">
+            <fieldset class="Calc"><legend>Calcule seu lixo</legend>
+                <div id="formCalc">
+                    <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Insira Seu Nome..." name="nome" id="nome" />
+                    <br>
+                    <label for="objeto">Objeto:</label>
+                    <input type="text" placeholder="Celular, Notebook, etc..." name="objeto" id="objeto" />
+                    <br>
+                    <label for="quantidade">Quantidade comprada ao Ano:</label>
+                    <input type="text" placeholder="Ex. 3" name="quantidade" id="quantidade" />
+                </div>
+                <div>
+                    <input id="botaoEnviar" type="button" value="Enviar" onclick="validaLixo()">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
